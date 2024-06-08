@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(90deg, #3729f0 2%, #54ff79 98%);
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h1 {
+    font-size: xx-large;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: -120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 {
+    margin-top: -60px;
+    font-size: larger;
+    color:#031147;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h3{
+    margin-top: 30px;
+    color: #031147;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+button {
+    border-radius: 10px;
+    margin-top: -60px;
+    background-color: #74acfa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 150px;
+    height: 40px;
+    border: #fff solid 3px;
+    
+}
+
+button:hover {
+    lighting-color: #3729f0;
+    background-color: #ffffff;
+}
+
+P {
+    font-size: large;
+    color: #031147;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    
+    width: 840px;
+    height: 440px;
+    border-radius: 20px;
+    border: 5px solid #d0e2fc;
+    top: 42%;
+    position: fixed;
+    display: flex;
+    overflow: hidden;    
+}
+
+.button1 {
+    align-items:center;
+    display:flex;
+    position:fixed;
+    margin-top: 460px;
+    margin-right: 75px;
+    width: 150px;
+    height: 40px;
+     
+  
+}
+
+#previousImage {
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d0e2fc;
+}
+
+#previousImage:hover {
+    background-color: #75f186;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nextImage {
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d0e2fc;
+}
+
+#nextImage:hover {
+    background-color: #d4eb81;
+    font-family: 'Times New Roman', Times, serif;
+}
